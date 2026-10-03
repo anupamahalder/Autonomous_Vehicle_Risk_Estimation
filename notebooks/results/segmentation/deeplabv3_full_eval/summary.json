@@ -1,0 +1,42 @@
+{
+  "model": "DeepLabV3-ResNet50 (torchvision, COCO/VOC-21)",
+  "dataset": "nuScenes v1.0-mini CAM_FRONT",
+  "speed": {
+    "device": "mps",
+    "images_tested": 100,
+    "model_only": {
+      "mean": 477.1861474502657,
+      "median": 474.91083350178087,
+      "std": 9.367914460789441,
+      "min": 465.62954199907836,
+      "max": 521.5354579995619,
+      "p95": 492.71658574507455,
+      "p99": 518.2174324063817
+    },
+    "end_to_end": {
+      "mean": 493.2645074503671,
+      "median": 490.231916999619,
+      "std": 12.357308300768702,
+      "min": 478.5286250116769,
+      "max": 553.0533749988535,
+      "p95": 510.72370479523664,
+      "p99": 552.3764625019976
+    },
+    "fps_model_only": 2.095618251584355,
+    "fps_end_to_end": 2.027309860928158,
+    "peak_memory_mb": 1235.25,
+    "gflops_per_frame": 602.166107136,
+    "params_million": 39.638869
+  },
+  "label_free": {
+    "frames": 404,
+    "mean_confidence": 0.9799472573074964,
+    "low_conf_pixel_ratio": 0.002406890757757094,
+    "mean_entropy": 0.02128593317010569,
+    "foreground_ratio": 0.0425761635229457,
+    "avg_fg_classes_per_frame": 1.448019801980198,
+    "temporal_pixel_agreement": 0.9602709103502252,
+    "temporal_class_jaccard": 0.8563596491228069
+  },
+  "ground_truth": null
+}

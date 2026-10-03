@@ -1,0 +1,2 @@
+model,dataset,camera,images_tested,device,average_inference_time_seconds,median_inference_time_seconds,std_inference_time_seconds,average_fps
+DeepLabV3-ResNet50,nuScenes v1.0-mini,CAM_FRONT,100,mps,0.4932287079299567,0.49026310450426536,0.010442761330088642,2.0274570071091844
